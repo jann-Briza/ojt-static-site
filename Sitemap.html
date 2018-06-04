@@ -1,0 +1,170 @@
+<!DOCTYPE>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Consolsys: Sitemap</title>
+      <link rel="shortcut icon" href="../images//favicon/favicon.ico" />
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link href="../css/footer.css" rel="stylesheet">
+      <link href="../css/Sitemap.css" rel="stylesheet">
+      <!-- Map -->
+      <script
+      src="http://maps.googleapis.com/maps/api/js">
+      </script>
+      <script>
+        var myCenter=new google.maps.LatLng(14.559563,121.019489);
+        function initialize()
+        {
+        var mapProp = {
+        center: myCenter,
+         zoom:17,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+        var marker = new google.maps.Marker({
+        position: myCenter,
+        title:'Click to zoom'
+        });
+
+        marker.setMap(map);
+
+        // Zoom to 9 when clicking on marker
+        google.maps.event.addListener(marker,'click',function() {
+        map.setZoom(9);
+         map.setCenter(marker.getPosition());
+         });
+         }
+         google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+  </head>
+  
+<body background="../images/bg-body.png">
+    <!-- Whote Container -->
+<div id = "container">
+  <div id = "container">
+    <!-- Header -->
+    <div id = "header">
+      <nav class="navbar navbar-default">
+         <div class="container-fluid">
+             <div class="navbar-header">
+                 <div class="cs-pic"><a href="index.html"><img src="../images/cs_logo.png" alt="Consolsys" width="140" height="93"></a></div>	
+             </div>
+    <ul class="nav navbar-nav">
+        <li>
+        <div class="verticalLine">
+        <div class="dropdown">
+        <h1 class="entry-title"><a href="index.html">Home</a></h1>
+            <div class="dropdown-content"></a>
+                <a href="Consolsys.html">Consolsys</a>
+            <a href="Team.html">Team</a>
+            <a href="Offices.html">Offices</a>
+            <a href="Careers.html">Careers</a>
+            <a href="AwardsAndNews.html">Awards & News</a>
+        </div>
+        </div>
+        </li>
+      <li><div class="verticalLine">
+      <div class="dropdown">
+          <h1 class="entry-title"><a href="Solutions.html">Solutions</a></h1>
+            <div class="dropdown-content"></a>
+            <a href="#">Multi-Channel Delivery</a>
+            <a href="#">Branch Delivery</a>
+            <a href="#">Conventional Banking</a>
+            <a href="#">Islamic Banking</a>
+            <a href="#">Business Performance Analysis</a>
+            <a href="#">Software Distribution</a>
+            <a href="#">Other Solution</a>
+            
+            </div>
+  </div>
+</div>
+
+</li>
+      <li>
+          <div class="verticalLine">
+        <div class="dropdown">
+        <h1 class="entry-title"><a href="Clients.html">Clients</a></h1>
+        </a></li>
+          <li>
+          <div class="verticalLine">
+        <div class="dropdown">
+        <h1 class="entry-title"><a href="Partners.html">Partners</a></h1>
+        </a></li>
+        
+      <li>
+          <div class="bankinngtext">
+        <p4>banking automation specialist</p4></li>
+        </div>
+        </ul>
+
+  
+</nav>
+    </div>
+    
+     <!-- Header End -->
+<div id = "content"> 
+    <div id = "right"> 
+        <div class="HorizontalLine">
+			<h3 class="entry-titles"><a href="#">Sitemap</a></h3>            
+        </div>  
+            <div id = "one-half">
+              <div id="googleMap" style="width:300px;height:300px;"></div>
+            </div>  
+            <div id = "second-half">
+               <div id = "buttons">
+                   <a href="index.html"><button type="button" class="btn btn-success">Home</button></a>
+                   <a href="Solutions.html"><button type="button" class="btn btn-success">Solutions</button></a>
+                   <a href="Clients.html"><button type="button" class="btn btn-success">Clients</button><a/>
+                   <a href="Partners.html"><button type="button" class="btn btn-success">Partners</button><a>
+               </div>
+               <div id = "category">
+                   <ul>
+						<li><a href="index.html">Consolsys</a></li>
+						<li><a href="Solutions.html">Team</a></li>
+                        <li><a href="#">Offices</a></li>
+						<li><a href="Clients.html">Careers</a></li>
+						<li><a href="Partners.html">Awards & News</a></li><br>
+						<li><a href="Sitemap.html">Multi-Channel Delivery</a></li>
+                        <li><a href="index.html">Branch Delivery</a></li>
+						<li><a href="Solutions.html">Conventional Banking</a></li>
+                        <li><a href="#">Offices</a></li>
+						<li><a href="Clients.html">Business Performance Analysis</a></li>
+						<li><a href="Partners.html">Software Distribution</a></li>
+						<li><a href="Sitemap.html">Other Solutions</a></li>
+					</ul>
+               </div> 
+            </div>
+            </div>  <a href="index.html">
+    </div>
+</div>
+
+<!-- Footer Start-->
+<div id = "footer">   
+    <footer id="footer">
+			<div class="footer_inner">
+				<div class="fr">
+					<span class="footer_image"><img src="../images/msc.png" width="48" height="45" ></span>
+					<ul class="footer_note">
+						<p8>Consolsys  © 2013 All rights reserved</p8>
+					</ul>
+					<ul class="footer_nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="Solutions.html">Solutions</a></li>
+                        <li><a href="Offices.html">Offices</a></li>
+						<li><a href="Clients.html">Clients</a></li>
+						<li><a href="Partners.html">Partners</a></li>
+						<li><a href="Sitemap.html">Sitemap</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+<!-- Footer End -->
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,407 @@
+
+#container{
+width:1000px;
+height:auto;
+background-color:red;
+margin:auto;
+}
+#header{
+width:auto;
+height:150px;
+padding: 30px;
+background-color:#778a02;
+}
+.verticalLine {
+border-right: thin solid white;
+}
+.verticalLineRight {
+border-right: thin dotted;
+float: right;
+    
+}
+.HorizontalLine{
+    margin-right: 20px;
+    margin-left: 55px;
+    border-bottom: thick solid #778a02;
+}
+
+.dropbtn {
+    background-color: #778a02;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin-top: 35px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.bankinngtext{
+    margin-top: 55px;
+    
+}
+p4{
+    margin-left: 19px;
+    color: white;
+    font-size: 18px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index:20 ;  
+}
+.dropdown-content a {
+    border-bottom: thin dashed;
+    border-color: #778a02;
+    }
+
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    padding-left:  10px;
+    padding-right:  10px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.navbar-default {
+    background-color: #778a02;
+    border-color: #778a02;
+}
+#top{
+width:1000px;
+float:none;
+height:auto;  
+background-color:#f9f9f9;;
+}
+#middle{
+    
+margin:auto;
+width:1000px;
+height:268px;  
+background-color:#eff1e1;
+}
+.carousel-indicators .active {
+background-color: #778a02;
+}
+.carousel-caption{
+    text-align: left;
+}
+.carousel-indicators li {
+background-color: #999;
+background-color: rgba(70,70,70,.25);
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width: 100%;
+margin: auto; 
+}
+#middle a:link {
+    text-decoration: none;
+    color:#778a02;
+    font-size: 22px;
+}
+
+#middle a:visited {
+    text-decoration: none;
+    color:#778a02;  
+}
+
+#middle a:hover {
+    text-decoration: none;
+    color:black   
+}
+
+#middle a:active {
+    text-decoration: none;
+}
+#middle p a:link {
+    text-decoration: none;
+    color:#cc0000;
+    font-size: 11px;    
+}
+#bottom-right a:link {
+    text-decoration: none;
+    color:#778a02;
+    font-size: 22px;
+}
+
+#bottom-right a:visited {
+    text-decoration: none;
+    color:#778a02;
+}
+
+#bottom-right a:hover {
+    text-decoration: none;
+    color:black   
+}
+
+#bottom-right a:active {
+    text-decoration: none;
+}
+#middle p a:link {
+    text-decoration: none;
+    color:#cc0000;
+    font-size: 11px;    
+}
+#middle p a:visited {
+    text-decoration: none;
+    color:#cc0000;
+    
+}
+
+#middle p a:hover {
+    text-decoration: none;
+    color:black  
+}
+
+#middle p a:active {
+    text-decoration: none;
+}
+
+#bottom-right a:link b {
+    text-decoration: none;
+    color:#cc0000;
+    font-size: 11px;
+    margin-left:115px;
+}
+
+#bottom-right a:visited b {
+text-decoration: none;
+color:#cc0000;
+    
+}
+
+#bottom-right a:hover b {
+    text-decoration: none;
+    color:black  
+    
+}
+
+#bottom-right a:active b {
+    text-decoration: none;
+}
+
+
+#bottom-right a:link i {
+    text-decoration: none;
+    color:#cc0000;
+    font-size: 11px;
+    
+}
+
+#bottom-right a:visited i {
+    text-decoration: none;
+    color:#cc0000;
+    
+}
+
+#bottom-right a:hover i {
+    text-decoration: none;
+    color:black  
+    
+}
+
+#bottom-right a:active i {
+    text-decoration: none;
+}
+
+#middle {
+	background-color:#eff1e1;
+	padding:15px 30px 20px;
+	margin:0 auto;
+	position:relative;
+}
+.one_fourth {
+	width:22%;
+	float:left;
+    margin-left: 25px;
+	padding-bottom:20px;
+	padding-right:4%;
+}
+.one_fourth h3 {
+    margin-left: -10px;
+}
+.one_fourth p {
+   font-size: 12px;
+    line-height: 1.4em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-stretch: normal;
+}
+.one_fourth i{
+    float: right;
+}
+p {
+    font-size: 13px;
+}
+p2 {
+    font-size: 16px;
+}
+#Container-bottom{
+width:1000px;
+height:auto;
+background-color:yellow;
+margin:auto;  
+}
+#bottom-left{
+float: left;
+width:640px;
+height:666px;
+background-color:#eff1e1;
+}
+#bottom-right{
+float: right;
+width:360px;
+height:auto;;
+background-color:#eff1e1;
+}
+#bottom-left a:link {
+    text-decoration: none;
+    color:#778a02;
+     border-radius: 10px;
+}
+
+#bottom-left a:visited {
+    text-decoration: none;
+    color:#5d6e05;
+    
+}
+
+#bottom-left a:hover {
+    text-decoration: none;
+    color:black;   
+}
+#bottom-left p1{
+    margin-left: 55px;
+    font-size: 11.5px;
+
+}
+#bottom-left p5{
+    font-size: 11.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#bottom-right p1{
+    margin-left: 55px;
+    font-size: 11.5px;
+    
+}
+#text{
+margin-top: 20px;
+}
+#bottom-right h3{
+    margin-left: 55px;
+}
+#bottom-tabs{
+padding: 20px;
+float: left;
+width:319px;
+height:350px;
+background-color: #eff1e1;
+}
+#bottom-content{
+    
+float: right;
+width:320px;
+height:510px;
+background-color: #eff1e1;
+}
+
+#inside-bottom-tabs{
+width:160px;
+margin:auto;
+height:auto;
+background-color: #eff1e1;
+}
+#inside-bottom-tabs ul li{
+    width:auto;
+    color: white;    
+}
+ #inside-bottom-tabs li:link{   background-color: #5d6e05;}
+
+
+#inside-bottom-tabs a{
+    font-size: 12px;
+    width: 165px;
+}
+
+p0{
+color:black;
+margin-left: 400px;
+}
+p00{
+color:black;
+font-size: 18px;
+}
+p88{
+color:white;
+margin-left: 410px;
+}
+.entry-title a:link{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    margin: 10px;
+}
+.entry-title a:visited{
+      text-decoration: none;
+    color:white;  
+}
+
+.entry-title a:hover{
+    text-decoration: none;
+    color:black   
+}
+
+.entry-title a:active{
+     text-decoration: none;
+}
+.entry-title{
+    margin: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.entry-title-home a:link{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    margin: 10px;
+     pointer-events: none;
+   cursor: default;
+}
+.entry-title-home a:visited{
+      text-decoration: none;
+    color:black;  
+}
+
+.entry-title-home a:hover{
+    text-decoration: none;
+    color:black   
+}
+
+.entry-title-home a:active{
+     text-decoration: none;
+}
+.entry-title-home{
+    margin: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
